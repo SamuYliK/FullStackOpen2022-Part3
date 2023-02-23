@@ -1,0 +1,2 @@
+// change id to the one to be removed
+DELETE http://localhost:3001/api/persons/4
