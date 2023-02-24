@@ -41,25 +41,3 @@ if (process.argv.length === 5){
     console.log('Please give password as third argument. If you want to add persons, name is fourth argument and number is fifth. No other arguments can be given.')
     mongoose.connection.close()
 }
-
-
-/*
-const note = new Note({
-  content: 'Who are you Mr. Mongoose?',
-  important: true,
-})
-
-note.save().then(result => {
-  console.log('note saved!')
-  mongoose.connection.close()
-})
-
-*/
-/*
-Note.find({ important: true }).then(result => {
-    result.forEach(note => {
-        console.log(note)
-    })
-    mongoose.connection.close()
-})
-*/
